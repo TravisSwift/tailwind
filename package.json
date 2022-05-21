@@ -1,0 +1,24 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "A project to practice using Tailwind",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwind.css -i ./input.css -o ./css/main.css",
+    "watch": "tailwind.css -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TravisSwift/tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TravisSwift/tailwind/issues"
+  },
+  "homepage": "https://github.com/TravisSwift/tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
